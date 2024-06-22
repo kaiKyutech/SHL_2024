@@ -7,12 +7,16 @@ kobu SHL_2024のセンサデータについての実践学習
 v8だけはvalidationデータで評価してみたノートブック。  
 バージョンが大きくなるにつれて新しく定義したもの  
 ### resnet
-resnetで学習
+resnetで学習  
+v18_resnet18が最も性能出ているモデル。  
 ### transformer  
-BERT, DistilBert, TST,TFTを実装途中
+BERT, DistilBertは実装できた。  
+しかし性能精度0.5程度しか出ないというのと、９次元データを学習させる方法について検討中ということ。  
+トークナイザーのところ要改善かも？  
+TST,TFTを実装予定
 ### RNN  
 v14にてLSTMを定義
 またampが実装できたので高速化していると思う。  
-v16はまだ作成途中
+v16_LSTM_lightningはまだ作成途中
 
 # アンサンブル学習について  
