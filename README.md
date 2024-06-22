@@ -7,11 +7,12 @@ kobu SHL_2024のセンサデータについての実戦学習
 v8だけはvalidationデータで評価してみたノートブック。  
 バージョンが大きくなるにつれて新しく定義したもの  
 ### resnet
-v10~v13ではresnetで学習
+resnetで学習
 ### transformer  
-(作成予定)
+BERT, DistilBert, TST,TFTを実装途中
 ### RNN  
 v14にてLSTMを定義
-またampが実装できたので高速化していると思う。
+またampが実装できたので高速化していると思う。  
+v16はまだ作成途中
 
 # アンサンブル学習について  
