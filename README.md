@@ -5,8 +5,8 @@
 # フォルダ構成（とメモ）    
 ### transformer   
 BERT, DistilBertは実装できた。↓    
-**my_neural_v25_distilBERT_3**  
-**my_neural_v19_BERT**  
+**my_neural_v25_distilBERT_3.ipynb**  
+**my_neural_v19_BERT.ipynb**  
 BERTは１つのセンサデータのみでの学習  
 DistilBertは９つのセンサデータで学習した。  
   
@@ -19,7 +19,7 @@ TST(time series transformer)というモデルを見つけた。実装方法は�
 v16_LSTM_lightningはまだ作成途中   
 ### resnet
 resnetで学習  
-**v18_resnet18**  が最も性能出ているモデル。  
+**my_neural_v18_resnet18.ipynb**  が最も性能出ているモデル。  
 ### CNN_Alexnet 
 独自で色々CNNを定義してみて学習させたもの。(Alexnet含む)  
 v8だけはvalidationデータで評価してみたノートブック。  
