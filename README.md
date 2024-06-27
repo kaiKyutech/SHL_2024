@@ -2,21 +2,25 @@
 センサデータを学習データにニューラルネットワーク構築  
 その実践学習  
 
-# フォルダ構成    
+# フォルダ構成（とメモ）    
 ### CNN_Alexnet 
 独自で色々CNNを定義してみて学習させたもの。(Alexnet含む)  
 v8だけはvalidationデータで評価してみたノートブック。  
 バージョンが大きくなるにつれて新しく定義したもの  
 ### resnet
 resnetで学習  
-v18_resnet18が最も性能出ているモデル。  
+**v18_resnet18**  が最も性能出ているモデル。  
 ### RNN  
-v14にてLSTMを定義
+**v14** にてLSTMを定義
 またampが実装できたので高速化していると思う。  
 v16_LSTM_lightningはまだ作成途中  
-### transformer  
-センサデータは当然自然言語ではないので事前学習モデルなどは今のところ見つけられなかった。  
-BERT, DistilBertは実装できた。(トークナイズをしないで生データを渡すことで９次元センサデータの処理をさせるという仕組み）  
+### transformer   
+BERT, DistilBertは実装できた。↓    
+**my_neural_v25_distilBERT_3**  
+**my_neural_v19_BERT**  
+BERTは１つのセンサデータのみでの学習  
+DistilBertは９つのセンサデータで学習した。  
+  
 nn.Embeddingsのところをnn.Linearに変えて８クラス分類を行った。マスクトレーニングなどはしていない。  
 TST,TFTを実装予定  
 TST(time series transformer)というモデルを見つけた。実装方法はまだよくわかっていない。  
