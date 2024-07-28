@@ -1,7 +1,7 @@
 # SHL_2024
-SHLデータセット(http://www.shl-dataset.org/)
+SHLセンサデータセット(http://www.shl-dataset.org/)
 を学習データにニューラルネットワーク構築  
-その実践学習  
+**BESTModels**に作成したモデルの中で最高評価のものをまとめている。(開発モデルについて見るならここだけで良い)
 
 
 
