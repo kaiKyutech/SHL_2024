@@ -1,5 +1,6 @@
 # SHL_2024
-SHLデータセット(http://www.shl-dataset.org/)を学習データにニューラルネットワーク構築  
+SHLデータセット(http://www.shl-dataset.org/)
+を学習データにニューラルネットワーク構築  
 その実践学習  
 
 
